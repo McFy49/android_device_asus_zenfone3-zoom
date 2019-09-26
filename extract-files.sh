@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=zenfone3
+DEVICE=zenfone3_zoom
 VENDOR=asus
 
 # Load extractutils and do some sanity checks

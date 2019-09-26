@@ -430,7 +430,7 @@ PRODUCT_BOOT_JARS += \
 
 # Recovery
 PRODUCT_PACKAGES += \
-    librecovery_updater_zenfone3
+    librecovery_updater_zenfone3_zoom
 
 # IMS
 PRODUCT_PACKAGES += \

@@ -1,5 +1,5 @@
 #
-# system.prop for zenfone3
+# system.prop for zenfone3_zoom
 #
 
 # Asus

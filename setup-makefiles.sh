@@ -19,7 +19,7 @@
 set -e
 
 # Required!
-DEVICE=zenfone3
+DEVICE=zenfone3_zoom
 VENDOR=asus
 
 INITIAL_COPYRIGHT_YEAR=2016

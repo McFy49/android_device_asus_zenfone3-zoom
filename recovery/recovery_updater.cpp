@@ -199,6 +199,6 @@ Value * VerifyModemFn(const char *name, State *state, const std::vector<std::uni
     return StringValue(strdup(ret ? "1" : "0"));
 }
 
-void Register_librecovery_updater_zenfone3() {
-    RegisterFunction("zenfone3.verify_modem", VerifyModemFn);
+void Register_librecovery_updater_zenfone3_zoom() {
+    RegisterFunction("zenfone3_zoom.verify_modem", VerifyModemFn);
 }

@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-DEVICE_PATH := device/asus/zenfone3
+DEVICE_PATH := device/asus/zenfone3_zoom
 
 BOARD_VENDOR := asus-qcom
 
@@ -24,8 +24,7 @@ TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
 # Asserts
 TARGET_BOARD_INFO_FILE ?= $(DEVICE_PATH)/board-info.txt
-TARGET_OTA_ASSERT_DEVICE := Z017,ASUS_Z017D_1,Z012,ASUS_Z012D,ASUS_Z012DC,ASUS_Z012S
-
+TARGET_OTA_ASSERT_DEVICE := Z01H,ASUS_Z017H_1
 # Use Snapdragon LLVM, if available
 TARGET_USE_SDCLANG := true
 
@@ -164,8 +163,8 @@ DEVICE_MATRIX_FILE   := $(DEVICE_PATH)/compatibility_matrix.xml
 
 # Init
 TARGET_IGNORE_RO_BOOT_SERIALNO := true
-TARGET_INIT_VENDOR_LIB := libinit_zenfone3
-TARGET_RECOVERY_DEVICE_MODULES := libinit_zenfone3
+TARGET_INIT_VENDOR_LIB := libinit_zenfone3_zoom
+TARGET_RECOVERY_DEVICE_MODULES := libinit_zenfone3_zoom
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc/
 
 # Keymaster
@@ -224,7 +223,7 @@ PRODUCT_BOOT_JARS += \
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
 # Recovery
-TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_zenfone3
+TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_zenfone3_zoom
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom

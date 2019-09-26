@@ -31,5 +31,5 @@ def AddModemAssertion(info, input_zip):
   if m:
     version = m.group(1).rstrip()
     if len(version) and '*' not in version:
-      info.script.AppendExtra(('assert(zenfone3.verify_modem("%s") == "1");' % (version)))
+      info.script.AppendExtra(('assert(zenfone3_zoom.verify_modem("%s") == "1");' % (version)))
   return

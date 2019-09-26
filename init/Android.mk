@@ -20,9 +20,10 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE_TAGS := optional
 LOCAL_C_INCLUDES := system/core/init
-LOCAL_SRC_FILES := init_zenfone3.cpp
-LOCAL_MODULE := libinit_zenfone3
+LOCAL_SRC_FILES := init_zenfone3_zoom.cpp
+LOCAL_MODULE := libinit_zenfone3_zoom
 LOCAL_STATIC_LIBRARIES := \
     libbase
 
 include $(BUILD_STATIC_LIBRARY)
+
